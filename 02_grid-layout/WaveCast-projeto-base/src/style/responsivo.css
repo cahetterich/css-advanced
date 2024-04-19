@@ -5,7 +5,8 @@
     .secao-horizontal .cartao__subtitulo,
     .secao-horizontal .cartao__botao,
     .secao-horizontal .cartao__player,
-    .secao-vertical .secao__link {
+    .secao-vertical .secao__link 
+     {
         display: none;
     }
 
