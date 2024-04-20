@@ -25,7 +25,8 @@ body {
 .categorias__titulo,
 .destaques,
 .eventos__titulo,
-.agenda__titulo {
+.agenda__titulo, 
+.categorias__item {
     font-size: 20px;
     text-transform: uppercase;
     font-family: var(--fonte-secundaria);
