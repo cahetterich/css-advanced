@@ -27,18 +27,18 @@ header nav ul li {
 }
 header nav ul a {
   text-decoration: none;
-  color: #0C0421;
-  font-size: 22px;
-  font-weight: 400;
   font-family: "Montserrat", sans-serif;
+  font-size: 1.37rem;
+  color: #0C0421;
 }
 header #home {
-  max-width: 1040px;
-  width: 80%;
+  max-width: 1000px;
   margin: 0 auto;
+  width: 80%;
   display: flex;
   align-items: center;
   align-content: space-between;
+  gap: 2rem;
 }
 header #home .textos-home {
   max-width: 486px;
@@ -67,7 +67,27 @@ header #home .textos-home .btn-main {
 }
 header #home .img-home {
   max-width: 474px;
+  margin-top: 1.6rem;
 }
 header #home .img-home img {
   width: 100%;
+}
+
+#nosso-espaco {
+  margin: 0 auto;
+  width: 80%;
+}
+#nosso-espaco .detalhes {
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2rem;
+}
+#nosso-espaco .detalhes .imgs-espaco, #nosso-espaco .detalhes .espaco-textos {
+  max-width: 500px;
+}
+#nosso-espaco .detalhes .espaco-textos .separador {
+  width: 100%;
+  margin: 1rem 0;
 }/*# sourceMappingURL=styles.css.map */
