@@ -37,7 +37,7 @@ header nav ul a:hover {
 }
 header #home {
   max-width: 1000px;
-  margin: 0 auto;
+  margin: 5rem auto 0;
   width: 80%;
   display: flex;
   align-items: center;
@@ -81,7 +81,7 @@ header #home .img-home img {
 }
 
 #nosso-espaco {
-  margin: 0 auto;
+  margin: 5rem auto 0;
   width: 80%;
 }
 #nosso-espaco .detalhes {
@@ -125,7 +125,7 @@ header #home .img-home img {
   padding: 5.3rem 0;
 }
 #servico .cards {
-  margin: 0 auto;
+  margin: 5rem auto 0;
   width: 80%;
   display: flex;
   gap: 1.5rem;
@@ -203,7 +203,7 @@ header #home .img-home img {
 }
 
 #contatos {
-  margin: 0 auto;
+  margin: 5rem auto 0;
   width: 80%;
   display: flex;
   justify-content: space-between;
@@ -225,4 +225,60 @@ header #home .img-home img {
 }
 #contatos .contatos-form {
   max-width: 50%;
+  background: linear-gradient(180deg, #E8F5C8 0%, #FFFFFF 96.87%);
+  padding: 2rem 3rem;
+  border-radius: 48px;
+}
+#contatos .contatos-form .titulo {
+  font-family: "Krona One", sans-serif;
+  font-size: 1.9rem;
+  color: #4E75FF;
+  font-weight: 500;
+}
+#contatos .contatos-form .infos, #contatos .contatos-form .inputs .form-group label {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  color: #0C0421;
+}
+#contatos .contatos-form .inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.5rem;
+  align-self: stretch;
+}
+#contatos .contatos-form .inputs input, #contatos .contatos-form .inputs .btn, #contatos .contatos-form .inputs .form-group textarea {
+  border-radius: 32px;
+  padding: 1rem;
+  border: none;
+}
+#contatos .contatos-form .inputs .form-group {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+#contatos .contatos-form .inputs .form-group label {
+  font-weight: 600;
+}
+#contatos .contatos-form .inputs .btn {
+  background: #85A0FF;
+  margin-top: 2rem;
+  color: white;
+  font-size: 1rem;
+  width: 100%;
+  transition: 0.3s;
+}
+#contatos .contatos-form .inputs .btn:hover {
+  background: #4E75FF;
+}
+
+footer {
+  background: #E8F5C8;
+  text-align: center;
+  padding: 2rem;
+  margin-top: 5rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  color: #0C0421;
 }/*# sourceMappingURL=styles.css.map */
