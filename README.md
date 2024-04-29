@@ -52,7 +52,7 @@ Códigos da formação *"CSS: aprofunde em estilos"*,  desenvolvido pela ALURA n
 
 ### Linkedin: https://www.linkedin.com/in/carla-hetterich/
 
-Aqui tem o link da formação [CSS: aprofunde em estilos](https://cursos.alura.com.br/user/hetterichcarla/degree-css-estilos-691591/certificate) desenvolvida pela ALURA.
+Aqui tem o link da formação [CSS: aprofunde em estilos](https://cursos.alura.com.br/formacao-css-estilos) desenvolvida pela ALURA.
 
 
 
